@@ -1,6 +1,6 @@
 # Cars DB
 
-**id**              BIGINT          NOTNULL     AUTO_INCREMENT  UNIQUE
+**id**              BIGINT          NOTNULL     PRIMARY_KEY     AUTO_INCREMENT  UNIQUE
 **model**           VARCHAR(30)     NOTNULL     
 **brand**           VARCHAR(30)     NOTNULL     
 **km_traveled**     MEDIUMINT       NOTNULL     
